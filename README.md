@@ -1,20 +1,45 @@
 # Dashboard-gerencial---digital-marketing-agency
-Este repositório é dedicado a um projeto de criação de um painel gerencial automatizado usando o Power BI. O projeto foi desenvolvido com uma base de dados extraida do kaggle.
+GitHub
 
-Sobre o Projeto
-O projeto tem como objetivo criar um painel gerencial no Power BI que permita acompanhar e analisar os principais indicadores de desempenho de uma agência de marketing digital. A agência "X" está em busca de atingir uma meta ambiciosa para o trimestre e precisa identificar os melhores planos de ação para alcançá-la. Para isso, foi criado um dashboard no Power BI que permite acompanhar os principais indicadores de desempenho, avaliar o desempenho de cada campanha, identificar oportunidades de otimização e escolher os melhores planos de ação.
+Este projeto é uma iniciativa que visa prever os resultados de um e-commerce utilizando as poderosas ferramentas do Excel e Power BI. Além disso, o projeto inclui recomendações para melhorar o desempenho da empresa.
 
-Dados do Projeto
-O projeto utiliza os dados do mês de Março de 2023, contendo informações como a data do período analisado, receita total, receita média de compra, total de compradores, visualizações, compradores por dia, compradores por origem, usuários totais por plataforma, usuários totais por cidade e usuários ativos por gênero.
+Base de Dados
+Arquivo do Desafio
+Contexto
+Neste desafio, a missão é criar um painel gerencial para um e-commerce que deseja analisar suas vendas e elaborar estratégias para impulsionar seus resultados. Você terá acesso a duas bases de dados: uma contendo informações de vendas e outra com dados de clientes. A sua tarefa é criar painéis para que os analistas possam visualizar as métricas-chave.
 
-Como Contribuir
-Se você deseja contribuir para este projeto, siga os passos abaixo:
+Principais Métricas a Serem Criadas:
 
-Faça um fork deste repositório.
-Clone o repositório forkado para o seu ambiente local.
-Desenvolva e aprimore o painel gerencial no Power BI.
-Faça commits das suas alterações e envie um pull request para revisão.
-Licença
-Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Quantidade total e valor total de vendas.
+Contagem e valor total de vendas por data.
+Quantidade e valor total de vendas por categoria.
+Certifique-se de criar filtros e oferecer a melhor experiência ao usuário. Lembre-se da importância do storytelling e de um layout atraente.
 
-Fique à vontade para explorar o projeto, contribuir e utilizar o painel gerencial automatizado no Power BI para análise de dados de marketing digital.
+Detalhamento das Tabelas
+Tabela Base de Compra
+idcompra: Número de identificação da compra.
+idcanalvenda: Canal de venda.
+bandeira: Bandeira utilizada na compra.
+Data: Data da compra.
+Preço: Preço da compra.
+Preço_com_frete: Preço da compra com frete.
+Nome_Departamento: Departamento do produto.
+estado: Estado da compra.
+cliente_Log: Identificação do cliente.
+Tabela Base Cliente
+cliente_Log: Identificação do cliente.
+Idade: Idade do cliente.
+uf_nascimento: Cidade de nascimento do cliente.
+Ferramentas e Sistemas Utilizados
+Power BI: Utilizado para criar visualizações de dados e relatórios.
+Microsoft Excel: Empregado para pré-processamento e análise de dados.
+Jupyter Notebook: Utilizado para exploração e análise de dados com Python.
+SQL Server: Sistema de banco de dados usado para armazenamento e recuperação de dados.
+Contribuição
+Fique à vontade para contribuir com melhorias neste projeto. Por favor, siga as Diretrizes de Contribuição.
+
+Contato
+Se você tiver dúvidas ou precisar de assistência, entre em contato:
+
+Danillo Melo
+GitHub: MRKV123
